@@ -1,6 +1,13 @@
 # ASVSP
 
-A college project for big data subject. It uses this dataset: https://www.kaggle.com/sobhanmoosavi/us-accidents?select=US_Accidents_June20.csv for analyzing car accidents in America between 2016 - 2020.
+A college project for big data subject. It uses this dataset: https://www.kaggle.com/sobhanmoosavi/us-accidents?select=US_Accidents_June20.csv for analyzing car accidents in America between 2016 - 2020. Detailed explenation about the format of the data and meaning of all 49 attributes can be found on this link: https://smoosavi.org/datasets/us_accidents. In this file only the attributes that were relevent for the processing will be mentioned and explained. 
+
+### Goals of Batch data processing
+The idea of batch data processing was to group accidents by severity and show which one happen the most, group them by weather and show in which weather accidents happen the most, group them by the time of the day. We've also shown number of accidents that happended by state and by year. 
+
+### Goals of Real Time Processing
+
+The idea with this processing was to have a real time update ( for example one hour ) about streets and the number of accidents and distance occupied by those accidents in that street. This info can be used by people to know in which streets the accidents happened and how much trafic jam do those accidents cause so they can know if they should avoid them or not.
 
 ### How to run it
 
